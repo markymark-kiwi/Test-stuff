@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Virtual Date Invite 💌</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+    body {
+      background-color: #fceaff;
+      font-family: 'Press Start 2P', cursive;
+      text-align: center;
+      padding: 50px;
+      color: #333;
+      background-image: url('https://i.imgur.com/8xwSgXY.png');
+      background-size: cover;
+      background-position: center;
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 16px;
+      margin: 20px;
+    }
+
+    button {
+      font-family: 'Press Start 2P', cursive;
+      font-size: 14px;
+      padding: 10px 20px;
+      margin: 10px;
+      background-color: #ffb6c1;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #ff7aa2;
+    }
+
+    audio {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>💌 Will you go on a virtual date with me?</h1>
+  <p>Pick a button below and let's make it cute.</p>
+  
+  <button onclick="window.location.href='mailto:your@email.com?subject=Virtual%20Date%20YES'">Yes 💖</button>
+  <button onclick="alert('Okay 😢 maybe another time...')">Maybe Later</button>
+
+  <audio autoplay loop>
+    <source src="https://files.catbox.moe/2kmtu9.mp3" type="audio/mp3" />
+    Your browser does not support the audio element.
+  </audio>
+</body>
+</html>
